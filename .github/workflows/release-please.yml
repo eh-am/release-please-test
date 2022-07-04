@@ -11,3 +11,5 @@ jobs:
         with:
           release-type: go
           package-name: release-please-action
+          token:
+            GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
