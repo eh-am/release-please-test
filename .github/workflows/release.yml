@@ -1,0 +1,21 @@
+name: Release
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: generate body
+        run: echo "# my appended test body" > RELEASE_BODY.md
+      - name: update release
+        id: update_release
+        uses: tubone24/update_release@v1.0
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          body_path: RELEASE_BODY.md
+          is_append_body: true
