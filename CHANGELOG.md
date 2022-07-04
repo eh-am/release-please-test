@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/eh-am/release-please-test/compare/v1.2.0...v1.3.0) (2022-07-04)
+
+
+### Features
+
+* test ([79c7b1b](https://github.com/eh-am/release-please-test/commit/79c7b1b8f04bccb3bcc9feb749c1f595de6a52d1))
+
 ## [1.2.0](https://github.com/eh-am/release-please-test/compare/v1.1.0...v1.2.0) (2022-07-04)
 
 
