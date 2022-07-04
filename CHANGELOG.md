@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/eh-am/release-please-test/compare/v1.1.0...v1.2.0) (2022-07-04)
+
+
+### Features
+
+* use personal token ([6ef97d7](https://github.com/eh-am/release-please-test/commit/6ef97d7b927340add5b6975bdc04904095dcf43c))
+
 ## [1.1.0](https://github.com/eh-am/release-please-test/compare/v1.0.2...v1.1.0) (2022-07-04)
 
 
